@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  /* background: #fe9808 ; */
+  background: #fe97089e;
+}
+::-webkit-scrollbar-thumb:hover {
+  /* background: #fe97089e; */
+  background: #fe9808 ;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
